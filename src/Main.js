@@ -24,7 +24,7 @@ const navigatorStyle = {
 
 Navigation.startSingleScreenApp({
   screen: {
-    screen: 'LOGIN.Home', // unique ID registered with Navigation.registerScreen
+    screen: 'LOGIN.Welcome', // unique ID registered with Navigation.registerScreen
     title: 'Home', // title of the screen as appears in the nav bar (optional)
     navigatorStyle:navigatorStyle, // override the navigator style for the screen, see "Styling the navigator" below (optional)
     passProps: {},
